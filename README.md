@@ -9,7 +9,7 @@ First, clone the repository to your local folder.
 
 # Database structure
 
-The web service expects you to have a certain kind of database in order to submit and receive data.
+The web service expects you to have a certain kind of MySQL database in order to submit and receive data.
 
 ![Database structure](https://zibang.s-ul.eu/6wQdSAya.png)
 
