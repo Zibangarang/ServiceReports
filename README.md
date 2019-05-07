@@ -39,7 +39,7 @@ class files there.
 
 After this, go to the WebContent folder and use the following command to create the .war file.
 
-`jar -cvf "yourfilename".war WEB-INF META-INF`
+`jar -cvf "yourfilename".war *`
 
 This should create the .war file that can be deployed to a Tomcat 9 server or such.
 
