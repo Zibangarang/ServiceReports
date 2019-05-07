@@ -22,8 +22,8 @@ import com.google.gson.JsonObject;
 public class ReportService { 
 
 	static String dbName = "e1300525_servicereports"; // these are global variables used for database connections
-	static String dbUserName = "e1300525";
-	static String dbPassword = "ZHucAcyD9cKX";
+	static String dbUserName = "";
+	static String dbPassword = "";
 	static String table = "service_report";
 	static String url = "jdbc:mysql://mysql.cc.puv.fi:3306/" + dbName;
 
