@@ -32,7 +32,7 @@ Run `javac -classpath <location/of/lib>/* *.java` to create the class files.
 
 # Building .war with jar
 
-After creating the .class files, cut them and go to the WEB-INF folder. Create a new folder called *classes* and paste the
+After creating the .class files, cut them and go to the WEB-INF folder. Create a new folder called *classes* and then another folder inside that called *server* and paste the
 class files there.
 
 ![](https://zibang.s-ul.eu/xHekWsui.png)
