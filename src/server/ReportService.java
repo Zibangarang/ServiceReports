@@ -58,12 +58,10 @@ public class ReportService {
 			return "Service report was added.";
 
 		} catch (SQLException e) {
-			System.out.println(e);
+			return e.getMessage(); //In the case of a database failure, this is returned
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			return e.getMessage();
 		}
-		return "Failed."; // In case of a database failure, this will be returned.
 	} // end of insertData
 
 	@GET
@@ -112,12 +110,10 @@ public class ReportService {
 			return prettyJson;
 
 		} catch (SQLException e) {
-			System.out.println(e);
+			return e.getMessage();
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			return e.getMessage();
 		}
-		return "Failed.";
 	} // end of listReports
 
 }
